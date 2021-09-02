@@ -1,0 +1,22 @@
+{
+  "name": "frontend-javascript-destructuring",
+  "version": "1.0.0",
+  "description": "Deze opdracht bestaat uit meerdere opdrachtjes om geïsoleerd met destructuring te kunnen oefenen. Om de opdracht te maken kun je de opdracht clonen of downloaden naar jouw eigen computer.",
+  "main": "destructuring.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JasperHX/destructuring.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JasperHX/destructuring/issues"
+  },
+  "homepage": "https://github.com/JasperHX/destructuring#readme",
+  "devDependencies": {
+    "jest": "^27.1.0"
+  }
+}
