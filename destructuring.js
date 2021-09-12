@@ -1,5 +1,6 @@
 // Opdracht 1: Destructure price en refreshRate uit onderstaand object, en log ze daarna in de terminal
 
+const axios = require("axios");
 const product = {
   price: 379,
   refreshRate: 50,
@@ -86,3 +87,16 @@ function getDetails(name, age) {
 const [nameString, ageString] = getDetails( "jasper", 24)
 
 console.log(nameString, ageString);
+
+
+// Uitprobeersel api
+async function fetchData() {
+  try {
+    const result = await axios.get("https://restcountries.eu/rest/v2/all");
+    console.log(result);
+  } catch(g) {
+    console.error(g);
+  }
+}
+
+fetchData();

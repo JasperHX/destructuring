@@ -49,3 +49,4 @@ const result = findByName(usernames, userToFind)
 expect(result).toEqual({name: "Klaas", id: 2});
 
 test(name: findByName())
+
